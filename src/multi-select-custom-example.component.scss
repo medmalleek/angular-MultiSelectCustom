@@ -1,0 +1,31 @@
+.item {
+  background-color: bisque;
+  color: rgb(11, 251, 51);
+  padding: 10px 10px !important;
+}
+
+.item-ls {
+  background-color: bisque;
+  color: rgb(215, 251, 11);
+}
+
+
+.mm {
+  height: 50px;
+}
+
+
+.ng-select.custom ::ng-deep .ng-select-container {
+  min-height: 0px;
+  border-radius: 0;
+  color: rgb(191, 241, 9) !important;
+}
+::ng-deep.ng-select-container {
+  border: 1px solid red !important;
+}
+::ng-deep.ng-value-container {
+  background-color: rgb(234, 15, 15);
+}
+.custom::ng-deep.ng-option {
+  background-color: rgb(165, 234, 15) !important;
+}
